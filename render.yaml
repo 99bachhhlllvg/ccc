@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: stockfish-bot
+    env: docker
+    plan: free
+    repo: https://github.com/99bachhhlllvg/ccc
+    branch: main
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
